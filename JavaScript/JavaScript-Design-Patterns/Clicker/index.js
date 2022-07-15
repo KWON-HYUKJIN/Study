@@ -1,7 +1,8 @@
 // Requirements 
 
 // UI 
-// Show 1 image and number of clicks 
+// Show 2 image and number of clicks 
+// the name should be above the image. 
 
 // Function
 // The number of clicks should increment when image is clicked.
