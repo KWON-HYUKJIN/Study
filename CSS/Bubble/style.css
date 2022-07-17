@@ -1,0 +1,30 @@
+.app {
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  align-items: stretch;
+  align-content: stretch;
+}
+
+.box {
+  width: 120px;
+  height: 120px;
+  background: yellow;
+  margin: 16px;
+  order: 10;
+}
+
+.bubble {
+  position: absolute;
+  display:none;
+  float: left;
+  width: 120px;
+  height: 120px;
+  top:40px;
+  left:40px;
+  background: red;
+  z-index: 999;
+  order: 11;
+  }
